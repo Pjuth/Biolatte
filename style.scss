@@ -1,0 +1,403 @@
+$main-text-color: #248805;
+$main-hover-color: #A1A1A1;
+html, body {
+  overflow-x: hidden;
+}
+
+.bg-header {
+  background-image: url('IMG/bg-head.png');
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: hidden;
+  background-size: cover;
+  .transparent-header {
+    background-color: rgba($color: white, $alpha: 0.7);
+    min-height: 160px;
+    overflow: hidden;
+    .login-bg {
+      max-width: 1608px;
+      overflow: hidden;
+      direction: rtl;
+      height: 85px;
+      img {
+        height: 60px;
+        width: 1608px;
+      }
+      .login {
+        position: relative;
+        top: -57px;
+        right: 83px;
+        .login-item {
+          padding: 1px 4px 0 10px;
+          color: #248805;
+          text-decoration: none;
+          font-size: 20px;
+          position: relative;
+          top: -4px;
+        }
+        .login-item:hover {
+          color: #2fc700;
+
+        }
+        .login-cart {
+          padding: 10px 10px 10px 30px;
+          color: $main-text-color;
+          text-decoration: none;
+          font-size: 30px;
+          .cart {
+            height: 29px;
+            width: initial;
+            position: relative;
+            top: -4px;
+          }
+        }
+      }
+    }
+    .logo {
+      margin-left: 5%;
+      display: inline-block;
+      img {
+        bottom: 10px;
+        position: relative;
+      }
+    }
+    .nav > li > a {
+      padding: 0 0 12px 0;
+      margin-right: 40px;
+      color: $main-text-color;
+      font-size: 25px;
+    }
+    .nav > li > a:hover {
+      color: $main-hover-color;
+      background-color: transparent;
+      border-bottom: 2px solid $main-hover-color;
+    }
+    .nav > li > a:focus {
+      background-color: transparent;
+    }
+    .navbar-toggle .icon-bar {
+      color: $main-text-color;
+      border: 1px solid;
+    }
+    .navbar-toggle {
+      border: 1px solid white;
+      margin-top: -4px;
+    }
+    .navbar-collapse {
+    }
+    .navbar {
+      margin-bottom: 0;
+      margin-top: 15px;
+    }
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+      background-color: transparent;
+    }
+    .main-menu {
+      float: right;
+      margin-right: 5%;
+    }
+  }
+}
+
+.bg-white {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  .product-item {
+    .product-item-img {
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+    h4 {
+      font-weight: 600;
+      color: $main-text-color;
+      font-size: 16px;
+      text-align: center;
+    }
+    .product-item-price {
+      display: inline-block;
+      line-height: 0.5;
+      .product-price-old {
+        color: $main-hover-color;
+        text-align: center;
+      }
+      .product-price-new {
+        color: #910000;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .product-button {
+      display: inline-block;
+      a {
+        background-color: $main-text-color;
+        color: white;
+        padding: 10px 10px 10px 10px;
+        position: relative;
+        bottom: 10px;
+        margin-left: 31px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.bg-green {
+
+  background-color: #C3E25A;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .probiot-wrapper {
+    display: inline-block;
+    width: 276px;
+    margin: 3px;
+  }
+  .probiot {
+    border: 3px solid white;
+    margin-top: 10px;
+    img {
+      padding: 15px;
+      margin: 0 auto;
+      display: inherit;
+      width: 160px;
+    }
+    .prob-text {
+      font-size: 20px;
+      color: $main-text-color;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}
+
+.bg-apple {
+  background-image: url("IMG/apple.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 540px;
+  min-height: 540px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h3 {
+    font-weight: 700;
+    color: $main-text-color;
+    text-shadow: 1px 1px 6px white;
+    font-size: 34px;
+  }
+  p {
+    color: $main-text-color;
+    text-shadow: 1px 1px 6px white;
+    font-size: 22px;
+  }
+  .apple-text-wrapper {
+    width: 250px;
+    position: relative;
+  }
+  .apple-button {
+    background-color: green;
+    display: inline-block;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 1px 12px 5px -8px rgba(0, 0, 0, 0.7);
+    position: relative;
+    font-size: 20px;
+  }
+}
+
+.bg-cloudy {
+  background-image: url("IMG/cloudy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 270px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.7), 0 1px 1px 0 rgba(0, 0, 0, 0.7);
+  text-align: center;
+  :nth-of-type(2) .border-wrapper {
+    box-shadow: 12px 7px 0 -11px black, -12px 7px 0 -11px black;
+  }
+  .cloudy-headings {
+    color: green;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  img {
+    height: 60px;
+  }
+  .cloudy-text {
+    position: relative;
+    top: -19px;
+    font-size: 17px;
+    color: #727473;
+  }
+}
+
+.bg-white2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h3, h2 {
+    color: $main-text-color;
+    font-weight: 700;
+    margin-bottom: -3px;
+  }
+  p {
+    color: $main-text-color;
+  }
+  .fb_iframe_widget {
+    margin-top: 20px;
+  }
+}
+
+.bg-light-black {
+  background-color: #222222;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .event-wrapper {
+    .date {
+      display: inline-block;
+      color: green;
+      font-size: 10px;
+      vertical-align: top;
+      padding-right: 5px;
+    }
+    .event {
+      display: inline-block;
+      width: 300px;
+      text-align: left;
+      h4 {
+        margin-top: 0;
+        color: $main-text-color;
+        margin-bottom: 0;
+      }
+      p {
+        color: white;
+        font-size: 9px;
+        margin-bottom: 0;
+      }
+      a {
+        color: $main-text-color;
+        font-size: 9px;
+      }
+    }
+  }
+  .artiklid {
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 340px;
+    text-align: left;
+  }
+  .icon {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .info {
+    display: inline-block;
+    width: 170px;
+    color: white;
+    vertical-align: top;
+    a {
+      color: $main-text-color;
+    }
+  }
+  .subscribe-wrapper {
+    position: relative;
+    width: 340px;
+    display: inline-block;
+    text-align: left;
+    input[type="email"] {
+      padding: 8px 100px 8px 10px;
+      font-size: 11px;
+      border: 1px solid #777777;
+      width: 255px;
+      height: 33px;
+      ::placeholder {
+        color: #0DD24E;
+      }
+    }
+    a.button {
+      display: inline-block;
+      position: absolute;
+      top: 46px;
+      right: 86px;
+      color: green;
+      font-size: 20px;
+      padding: 5px;
+    }
+    .artiklid {
+      margin-top: 20px;
+
+    }
+  }
+  .contact-wrapper {
+    margin-top: 10px;
+    .contact-wrapper2 {
+      display: inline-block;
+      text-align: left;
+      width: 340px;
+    }
+  }
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+  .foot {
+    padding: 15px 0 15px 0;
+    a {
+      color: white;
+      padding-right: 10px;
+    }
+    .foot-wrapper {
+      text-align: right;
+    }
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-white .product-item {
+    text-align: center;
+    .product-button a {
+      margin-left: 0;
+      bottom: -15px;
+    }
+  }
+  .margin {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bg-white .product-item .product-item-img {
+    max-width: 270px;
+    display: inline-block;
+    min-width: 270px;
+  }
+  .bg-white .product-item .product-button a {
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 480px) {
+}
